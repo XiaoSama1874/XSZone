@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>neu.xiaosama</groupId>
+        <artifactId>xsZone</artifactId>
+        <version>2.5.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>xsZone-common-log</module>
+        <module>xsZone-common-core</module>
+        <module>xsZone-common-redis</module>
+        <module>xsZone-common-swagger</module>
+        <module>xsZone-common-security</module>
+        <module>xsZone-common-datascope</module>
+		<module>xsZone-common-datasource</module>
+    </modules>
+
+    <artifactId>xsZone-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+	    xsZone-common通用模块
+    </description>
+
+</project>

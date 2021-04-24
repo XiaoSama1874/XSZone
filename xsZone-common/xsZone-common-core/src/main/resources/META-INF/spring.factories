@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  neu.xiaosama.common.core.utils.SpringUtils
+
+  
